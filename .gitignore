@@ -1,0 +1,32 @@
+# Python virtual environments
+venv/
+env/
+*.venv
+
+# Python bytecode and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Task data file (keep it local, not tracked)
+tasks.json
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
